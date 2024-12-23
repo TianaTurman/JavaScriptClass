@@ -1,6 +1,24 @@
 /**********************************
  * YOUR CODE GOES HERE THIS TIME! *
  **********************************/
+// Variables
+let x = 3;
+let y = 10;
+let z = 4;
+let greeting = 'hello';
+let firstName = 'Tiana';
+let callStatus = 'ringing';
+
+//functions
+function double(){
+  x = x * 2;
+}
+
+
+function triple(){
+  y = y * 3;
+}
+
 
 
 
