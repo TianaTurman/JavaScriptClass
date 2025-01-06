@@ -1,0 +1,13 @@
+.color-box {
+    width: 200px;
+    height: 200px;
+    margin: 20px auto;
+    background-color: lightgray;
+    border: 2px solid black;
+  }
+  .controls {
+    text-align: center;
+  }
+  button, input {
+    margin: 5px;
+  }
