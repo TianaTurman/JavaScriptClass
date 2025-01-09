@@ -8,10 +8,9 @@ function isEqualIgnoreCase(str1, str2) {
 
 
 function capitalizeFirstLetter(str) {
-    // Your code here
-  }
-
-
+ return str.charAt(0).toUpperCase() + str.slice(1).toLowerCase()
+}
+capitalizeFirstLetter("Kaiden");
 
 
 
