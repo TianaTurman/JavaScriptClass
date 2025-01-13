@@ -1,8 +1,12 @@
-/*
+let z = 5;
 
-Your code goes below.
 
-*/
+function opposite(num){
+  return z = -num
+};
+console.log(opposite(2));
+
+
 
 
 
