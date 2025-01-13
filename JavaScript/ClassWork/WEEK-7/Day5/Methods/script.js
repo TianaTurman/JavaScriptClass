@@ -15,14 +15,14 @@ capitalizeFirstLetter("Kaiden");
 
 
 function containsSubstring(str, substring) {
-    // Your code here
+   
   }
 
 
 
 
 function containsSubstringIgnoreCase(str, substring) {
-    // Your code here
+    return str.toLowerCase().includes(substring.toLowerCase());
   }
 
 
@@ -30,5 +30,13 @@ function containsSubstringIgnoreCase(str, substring) {
 
   
 function getInitials(fullName) {
-    // Your code here
+    const names = fullName.split(" "); // split the full name 
+    let initials = "";
+
+    for (const name of names ) {
+      initials += name.charAt(0).toUpperCase() + ".";
+    }
+    return initials;
   }
+
+  console.log(getInitials("John Doe")); // "J.D."
