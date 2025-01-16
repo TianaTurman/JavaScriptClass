@@ -2,7 +2,15 @@
  * YOUR CODE GOES RIGHT HERE! *
  ******************************/
 
+function fizzy(num) {
+  //if the number is / by 3 and 5 return FizzBuzz
+if( num % 3 === 0 && num % 5 === 0){
+  return 'FizzBuzz'
+}else if(num % 3 === 0) {
+return 'Fizz'
+}
 
+}
 
 
 /**********************************
