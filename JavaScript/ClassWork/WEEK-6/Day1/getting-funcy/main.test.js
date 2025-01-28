@@ -11,7 +11,7 @@ let callStatus = 'ringing';
 
 //functions
 function double(){
-  x = x * 2;
+  return x = x * 2;
 }
 
 

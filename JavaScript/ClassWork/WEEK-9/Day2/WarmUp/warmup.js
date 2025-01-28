@@ -3,7 +3,7 @@
 //The .toUpperCase() method converts all characters in a string to uppercase.
 
 function toUpperCaseString(str) {
- 
+ return str.toUpperCase();
 }
 
 console.log(toUpperCaseString("hello")); // Output: "HELLO"
@@ -15,7 +15,7 @@ console.log(toUpperCaseString("JavaScript")); // Output: "JAVASCRIPT"
 //Write a function that adds a new item to the end of an array.
 const myArray = [1, 2, 3];
 function addItemToArray(arr, item) {
- 
+ return arr.push(item)
 }
 
 addItemToArray(myArray, 4);
@@ -26,7 +26,7 @@ console.log(myArray); // Output: [1, 2, 3, 4]
 //The .map() method applies a callback function to each element in the array and returns a new array with the modified values.
 //Write a function that takes an array of numbers and returns a new array with each number doubled.
 function doubleNumbers(arr) {
-
+  return arr.map((num) => num * 2);
 }
 
 console.log(doubleNumbers([1, 2, 3])); // Output: [2, 4, 6]
@@ -37,7 +37,7 @@ console.log(doubleNumbers([4, 5, 6])); // Output: [8, 10, 12]
 //The .includes() method checks if a substring exists within a string and returns true or false.
 
 function containsWord(sentence, word) {
-  
+  return sentence.includes(word);
 }
 
 console.log(containsWord("JavaScript is fun", "fun")); // Output: true
@@ -48,7 +48,7 @@ console.log(containsWord("I love coding", "Python")); // Output: false
 //Write a function that filters out all numbers less than 5 from an array.
 //The .filter() method returns a new array containing elements that satisfy the given condition (i.e., num >= 5).
 function filterNumbers(arr) {
-  
+  return arr.filter(num => num >= 5)
 }
 
 console.log(filterNumbers([1, 6, 3, 8, 4, 7])); // Output: [6, 8, 7]

@@ -1,7 +1,89 @@
 /******************
  * YOUR CODE HERE *
  ******************/
+const addAll = function(arr){
+  let sum = 0
+  for(let num of arr){
+    sum += num
+  }
+  return sum
+}
 
+console.log(addAll([1,2,3,4]));
+
+const countSpaces = function (str){
+  let count = 0
+  for(let char of str){
+    if(char === ' '){
+      count++
+    }
+  }
+  return count
+}
+
+const countTrues = function(booleans){
+  let count = 0
+  for(let bool of booleans){
+    if(bool === true){
+      count++
+    }
+  }
+  return count
+}
+
+const makeFriendly = function(paragraph){
+  let result = ''
+  for (let char of paragraph){
+    if(char === '.'){
+      result += '!'
+    }else{
+      result += char
+    }
+  }
+  return result
+}
+
+const cubeAll = function(arr){
+  let result = []
+  for (let num of arr){
+    result.push(num ** 3)
+  }
+  return result
+}
+
+const addNoises = function(arr){
+  let result = []
+  for(animal of arr){
+    if (animal === 'Fido' || animal === 'Rolph' || animal === 'Maisie') {
+      result.push(animal + ' says "Woof!"')
+    } else if (animal === 'Garfield' || animal === 'Heathcliff') {
+      result.push(animal + ' says "Meow!"')
+    } else if (animal === 'Barnie' || animal === 'Sharp Tooth') {
+      result.push(animal + ' says "ROWR."')
+    }
+  }
+  return result
+}
+
+const womenOnly = function(arr){
+  const women = [];
+  for(let name of arr){
+    if(name.endsWith('F')){
+      women.push(name)
+    }
+  }
+  return women;
+}
+
+const integersOnly = function(numbers){
+  const integers = []
+  for(let num of numbers){
+    if(num % 1 === 0){
+      integers.push(num)
+    }
+  }
+  return integers
+}
 
 /*********************************
  * OUR CODE BELOW; DO NOT TOUCH! *
@@ -42,14 +124,6 @@ if (typeof integersOnly === 'undefined') {
 }
 
 const assert = require('assert');
-const {
-  addAll,
-  countSpaces,
-  countTrues,
-  makeFriendly,
-  cubeAll,
-  addNoises,
-} = require('./your-functions'); // Import your functions
 
 describe('addAll', () => {
   it(`adds all the numbers in the array`, () => {
