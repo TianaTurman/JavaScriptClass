@@ -7,7 +7,13 @@
 
 //3.Even Numbers: Write a while loop that prints all even numbers between 1 and 20.
 
-
+let num = 1;
+while (num <= 20) {
+  if (num % 2 === 0) {
+    console.log(num);
+  }
+  num++;
+}
 
 //4.Sum of Numbers: Calculate and print the sum of all numbers from 1 to 50 using a while loop.
 

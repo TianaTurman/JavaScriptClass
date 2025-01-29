@@ -1,5 +1,7 @@
 const myPersevereCodeObj = {
-  wait: 'I do not object'
+  wait: 'I do not object',
+  isAnExcellentObject: false
+  
 };
 
 // Part 1 - Adding and changing properties in plain JS.
@@ -7,11 +9,13 @@ const myPersevereCodeObj = {
 // You won't change lines 1-3 above, but instead set and change the properties for each step below by writing NEW code underneath each comment.
 
 // Below, set the value of property `wait` to be "I object".
+myPersevereCodeObj.wait = 'I object'
+
 
 
 // Add the new property `isAnExcellentObject` and set it to `true`.
-
-
+myPersevereCodeObj.isAnExcellentObject = true;
+console.log(myPersevereCodeObj)
 // Add the property `term` and set it to 1.
 
 
