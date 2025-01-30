@@ -4,21 +4,29 @@
 //age: 14
 //grade: "8th"
 //Then, log the object to the console.
-
-
+let student = {
+    name: "Alex",
+    age: 14,
+    grade: "8th"
+};
+console.log(student)
 
 
 //2. Accessing Object Properties
 //Given the following object:
-
+let carModels= ['Toyota',   ]
 const car = {
-  brand: "Toyota",
+  brand: ["Toyota",'Mazda','Honda'],
   model: "Corolla",
   year: 2022
+
 };
 // Write JavaScript code to print:
-// The brand of the car
+// The brand of the car 
+console.log(car.brand[1])
+console.log(car.model)
 // The model of the car
+
 
 
 
@@ -32,7 +40,8 @@ const book = {
   yearPublished: 2001
 };
 //Change the yearPublished property to 2020 and print the updated object.
-
+book.yearPublished = 2020;
+console.log(book.yearPublished)
 
 
 
@@ -44,7 +53,8 @@ const laptop = {
   price: 1200
 };
 //Then, print the updated object.
-
+laptop.isAvailable = true;
+console.log(laptop)
 
 
 
@@ -56,3 +66,4 @@ const person = {
   age: 25,
   city: "New York"
 };
+
