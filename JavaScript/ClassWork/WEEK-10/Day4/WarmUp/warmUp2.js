@@ -5,7 +5,7 @@ const user = {
   email: "coder@example.com"
 };
 //Write JavaScript code to check if the object has a property called "password" and print true or false.
-
+console.log('password' in user);
 //2. Deleting a Property from an Object
 //Given the object below:
 
@@ -14,6 +14,7 @@ const movie = {
   director: "Christopher Nolan",
   year: 2010
 };
+
 //Write JavaScript code to remove the "year" property from the movie object and then print the updated object.
 
 //3. Copying an Object Using Spread Operator

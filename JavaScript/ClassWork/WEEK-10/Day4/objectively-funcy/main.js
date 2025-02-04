@@ -1,5 +1,12 @@
 // YOUR CODE GOES HERE!!!
 /*************************/
+function getFirstName(obj){
+return obj.firstName
+}
+// const getFirstName = obj => {return obj.firstName}
+console.log(getFirstName({firstName: 'John', lastName: 'Doe'}));
+
+
 
 /****************************/
 // Our code here. Don't touch!

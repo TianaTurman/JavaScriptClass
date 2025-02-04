@@ -3,6 +3,17 @@
 // └─────────────────┘
 
 
+function createPhonebook(names,numbers){
+let phonebook = {};
+for(let i = 0; i < names.length; i++){
+phonebook[names[i]] = numbers[i];
+}
+return phonebook;
+}
+
+console.log(createPhonebook(['Jimothy', 'Maria', 'Karl'], ['123-456-7890', '000-000-0000', '999-888-7766']))
+
+
 
 
 
