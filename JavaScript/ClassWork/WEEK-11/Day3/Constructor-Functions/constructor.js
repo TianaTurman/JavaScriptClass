@@ -100,6 +100,8 @@ function Vehicle(type) {
 
 // Add prototype method here
 
+
+
 function Bike(brand) {
     Vehicle.call(this, "Bike");
     this.brand = brand;
