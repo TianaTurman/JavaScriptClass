@@ -98,7 +98,7 @@ console.log(student1);
 const arr1 = [1, 2, 3];
 const arr2 = [4, 5, 6];
 
-Array.prototype.push.apply(arr1, arr2);
+Array.prototype.push.apply(arr1,arr2);
 console.log(arr1);
 
 
@@ -112,7 +112,7 @@ const user = {
     sayHello: function() {
         setTimeout(function() {
             console.log(`Hello, my name is ${this.name}`);
-        }.call(this), 1000);
+        }.bind(this), 3000);
     }
 };
 

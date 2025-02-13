@@ -6,6 +6,9 @@
 
 // 2. Hide an Element
 // Using JavaScript, hide the following <div> when a button is clicked.
+document.getElementById("hideBtn").addEventListener("click", function() {
+    document.getElementById("box").style.display = "none";
+});
 
 
 
@@ -21,7 +24,11 @@
 // 4. Count Button Clicks
 // Write JavaScript to count how many times the button has been clicked and display the count inside the <span>.
 
-
+let count = 0;
+document.getElementById("clickMe").addEventListener("click", function() {
+    count++;
+    document.getElementById("count").textContent = count;
+});
 // Hint: Use a variable to store the count and textContent to update the <span>.
 
 // 5. Remove an Element from the DOM
