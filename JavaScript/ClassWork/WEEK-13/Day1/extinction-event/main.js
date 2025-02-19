@@ -1,16 +1,39 @@
-//select elements
+// Ensure these lists contain elements before using them
+const strikeThroughList = document.querySelectorAll('ol li');
+const eraseList = document.querySelectorAll('ul li');
+const dinos = document.querySelectorAll('img');
 
+// Add event listeners once, not inside another listener
+strikeThroughList.forEach(element => {
+    element.addEventListener('click', function() {
+        element.style.textDecoration = 'line-through';
+    });
+});
 
-//use a for of loop to add a line-through the text a user clicks on
+eraseList.forEach(element => {
+    element.addEventListener('click', function() {
+        element.style.opacity = 0;
+    });
+});
 
+dinos.forEach(element => {
+    element.addEventListener('click', function() {
+        element.style.width = '0px';
+    });
+});
 
+// This button might have another function, so ensure its intent is correct
+document.querySelector('#destroy-all').addEventListener('click', function() {
+    
+    strikeThroughList.forEach(element => {
+        element.style.textDecoration = 'line-through';
+    });
 
-//use a for of to erase and item when a user clicks on it
+    eraseList.forEach(element => {
+        element.style.opacity = 0;
+    });
 
-
-
-//use a for to make the image of the dinosaur disapear when clicked on 
-
-
-//make all of the dinosaurs disapear when a user clicks the destroy-all element
-//you will need to use document.getElementById() and addEventListener()
+    dinos.forEach(element => {
+        element.style.width = '0px';
+    });
+});

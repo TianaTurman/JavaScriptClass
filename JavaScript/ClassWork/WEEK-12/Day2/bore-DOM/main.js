@@ -34,7 +34,7 @@ newImage.style.height = '280px';
 
 // 10. Append a 16th <li> element to the list using innerHTML.
 const itemList = document.querySelector('ul');
-itemList.innerHTML + '<li class="item" id="item-16">16</li>';
+itemList.innerHTML += '<li class="item" id="item-16">16</li>';
 
 // 11. Assign the same class as the other list items to the new <li> element using JavaScript.
 const newItem = document.getElementById('item-17');
