@@ -1,0 +1,60 @@
+// 1. Find if a String Contains "JavaScript" (Case-Insensitive)
+//  Write a function that returns true if the text contains "JavaScript", ignoring case.
+// 
+function findWordsStartingWithJ(text) {
+   //code here
+}
+
+console.log(findWordsStartingWithJ("JavaScript is Just great")); 
+
+
+// 
+// 2. Extract All Words from a String
+//  Given "Hello, world! How's it going?", extract all words.
+// 
+ function extractNumbers(text) {
+    //code here
+}
+
+console.log(extractNumbers("Order 50 apples, 30 bananas")); 
+// Output: [50, 30]
+
+
+
+
+// 3. Validate a Phone Number
+//  A valid phone number follows (123) 456-7890 or 123-456-7890. Write a regex to check if a given phone number is valid.
+function isValidPhoneNumber(phone) {
+    //code here
+   }
+   
+   console.log(isValidPhoneNumber("(123) 456-7890")); // true
+   console.log(isValidPhoneNumber("123-456-7890"));   // true
+   console.log(isValidPhoneNumber("1234567890"));     // false
+   console.log(isValidPhoneNumber("12-3456-7890"));   // false
+
+
+
+
+// 4. Replace All Spaces with Dashes
+//  Convert "Hello World" into "Hello-World".
+
+function startsWithHello(text) {
+  //code here
+}
+
+console.log(startsWithHello("Hello world")); // true
+console.log(startsWithHello("world Hello")); // false
+
+
+// 5. Check If a String Starts with "The"
+// Return true if the string starts with "The", ignoring case.
+
+function startsWithThe(text) {
+    //code here
+}
+
+console.log(startsWithThe("The quick brown fox")); // true
+console.log(startsWithThe("the lazy dog"));       // true
+console.log(startsWithThe("A story about The king")); // false
+console.log(startsWithThe("They are coming"));    // false
