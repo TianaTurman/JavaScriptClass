@@ -1,8 +1,9 @@
 // 1. Find if a String Contains "JavaScript" (Case-Insensitive)
 //  Write a function that returns true if the text contains "JavaScript", ignoring case.
-// 
+
 function findWordsStartingWithJ(text) {
-   //code here
+   let regex = /javaScript/i;
+   return regex.test(text)
 }
 
 console.log(findWordsStartingWithJ("JavaScript is Just great")); 
@@ -12,8 +13,9 @@ console.log(findWordsStartingWithJ("JavaScript is Just great"));
 // 2. Extract All Words from a String
 //  Given "Hello, world! How's it going?", extract all words.
 // 
- function extractNumbers(text) {
-    //code here
+ function extractNumbers(numbers) {
+  let regex = /\d+/g;  // Matches all numbers
+  return numbers.match(regex).map(Number);
 }
 
 console.log(extractNumbers("Order 50 apples, 30 bananas")); 

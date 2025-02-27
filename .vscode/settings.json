@@ -1,3 +1,4 @@
 {
-    "liveServer.settings.port": 5501
+    "liveServer.settings.port": 5501,
+    "livePreview.defaultPreviewPath": "/JavaScript/ClassWork/WEEK-13/Day3/emoji-translator/index.html"
 }
