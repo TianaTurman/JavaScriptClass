@@ -1,0 +1,38 @@
+/* Assignment 1: Color Changer with .css() and .click() */
+
+
+
+
+
+
+/* Assignment 2: Toggle Visibility with .hide(), .show(), and .click() */
+
+
+
+
+
+/* Assignment 3: Append and Prepend List Items with .append() and .prepend() */
+
+
+
+
+
+/* Assignment 4: Toggle Class with .toggleClass() */
+#toggleDiv {
+    width: 200px;
+    height: 200px;
+    background-color: lightblue;
+    line-height: 200px;
+    text-align: center;
+    margin-bottom: 20px;
+    cursor: pointer;
+  }
+  .highlight {
+    background-color: gold;
+    color: black;
+    font-weight: bold;
+  }
+
+
+
+  
