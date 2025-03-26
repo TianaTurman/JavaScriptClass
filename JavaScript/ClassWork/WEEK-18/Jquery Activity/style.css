@@ -1,0 +1,12 @@
+
+/* 2. Change Text Color on Hover */
+h2 {
+    transition: color 0.3s;
+  }
+
+/* 4. Fade Out Div on Click*/
+#fadeDiv {
+    padding: 20px;
+    background: #ccc;
+    cursor: pointer;
+  }
