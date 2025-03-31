@@ -1,0 +1,12 @@
+/* 1. slide panel */
+#panel {
+    padding: 10px;
+    background-color: #f2f2f2;
+    display: none;
+  }
+
+  /* 2. Add and Remove CSS Class */
+  .highlight {
+    background-color: yellow;
+  }
+
