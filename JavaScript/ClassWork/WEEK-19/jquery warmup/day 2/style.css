@@ -1,0 +1,8 @@
+/* 1. Toggle Dark Mode */
+
+body.dark-mode {
+    background-color: black;
+    color: white;
+  }
+
+  
