@@ -10,3 +10,19 @@ h2 {
     background: #ccc;
     cursor: pointer;
   }
+
+
+/* Accordion styling */
+  .accordion-header {
+    background: #eee;
+    padding: 10px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    margin-top: 5px;
+  }
+  .accordion-content {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-top: none;
+    display: none;
+  }

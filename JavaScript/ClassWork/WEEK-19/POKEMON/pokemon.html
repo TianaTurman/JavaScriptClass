@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="pokemon.js" defer></script>
+    <link rel="stylesheet" href="pokemon.css">
+</head>
+<body>
+    <div class="container">
+        <input type="text" id="pokemonName" placeholder="Enter Pokémon name">
+        <button onclick="fetchData()">Search</button>
+    
+        <div id="pokemonCard" class="card">
+            <img id="pokemonSprite" class="sprite" style="display:none;">
+            <div class="info">
+                <p id="pokemonInfo"></p>
+                <p id="pokemonAbilities"></p>
+            </div>
+        </div>
+    </div>
+    
+    
+</body>
+</html>

@@ -70,7 +70,7 @@ $(function(){
 });
 
 $.ajax({
-    url: 'example.php',
+    url: 'content.txt',
     type: 'GET',
     dataType: 'json',
     success: function(data) {
